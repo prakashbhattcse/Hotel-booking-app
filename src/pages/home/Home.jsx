@@ -11,17 +11,17 @@ import Footer from '../../components/footer/Footer';
 const Home = () => {
   return (
     <div>
-        <Navbar/>
-        <Header/>
-        <div className='homeContainer'>
-       <Featured/>
-  <div className="homeTitle">Browse by property type</div>
-  <PropertyList/>
-  <div className="homeTitle">Connect with other travellers</div>
-  <FeaturedProperties/>
-  <MailList/>
-  <Footer/>
-        </div>
+      <Navbar />
+      <Header />
+      <div className='homeContainer'>
+        <Featured />
+        <div className="homeTitle">Browse by property type</div>
+        <PropertyList />
+        <div className="homeTitle">Connect with other travellers</div>
+        <FeaturedProperties />
+        <MailList />
+        <Footer />
+      </div>
     </div>
   )
 }
