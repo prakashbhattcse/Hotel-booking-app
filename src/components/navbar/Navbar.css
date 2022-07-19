@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Dancing+Script:wght@700&family=Edu+SA+Beginner:wght@700&family=Roboto:wght@400;500;700;900&family=Source+Sans+3:wght@400;600;700;800&display=swap');
+.navbar {
+  height: 56px;
+  /* background-color: #003580; */
+  /* background-color: #fff; */
+  /* background-color: #002d4f; */
+  background-color: #00395c;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  /* color: #464f5e; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 2.5rem;
+  /* color: rgb(0, 89, 255); */
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+.logo span{
+  color: rgb(255, 213, 0);
+  font-family: 'Dancing Script', cursive;
+}
+
+.navButton{
+    margin-left: 20px;
+    /* border: 1px solid rgb(122, 122, 122); */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: .2rem;
+    /* color: #464f5e; */
+    color: black;
+    /* background-color: #01BEA0; */
+    background-color: #fff;
+}
